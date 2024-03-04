@@ -1,0 +1,122 @@
+@charset "UTR-8";
+@font-face {
+    font-family: 'adr';
+    src: url('fontes/idroid.otf') format(opentype);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+body {
+    background-color: rgba(0, 128, 0, 0.575);
+   
+    
+}
+header {
+    background-image:linear-gradient(to bottom, rgba(59, 134, 59, 0.801) ,  rgba(0, 128, 0, 0.575), rgba(11, 126, 11, 0.459));
+    padding: 10px;
+    color: white;
+    margin: auto;
+}
+h1 { 
+    text-align: center;
+    
+    
+}
+p#hp {
+    text-align: center;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    padding: 5px 5px;
+    color: aliceblue;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+a:hover{
+    background-color: rgba(0, 22, 0, 0.644);
+    color: rgb(48, 138, 48);
+    font-weight: bold;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    max-width: 1000px;
+    min-width: 250px;
+    margin: 20px;
+    margin: auto;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img {
+    width: 100%;
+}
+img#bug {
+    max-width: 350px;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+h2 {
+    color: rgb(3, 124, 3);
+    font: normal 25px 'adr';
+    padding: 10px;
+}
+h3 {
+    background-image: linear-gradient(to right, rgba(7, 128, 7, 0.37), transparent);
+    color: rgba(0, 128, 0, 0.575);
+    font-family: 'adr';
+    padding: 5px;
+    text-align: left;
+}
+div.video {
+    background-color: rgba(59, 134, 59, 0.801);
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+    
+}
+div {
+    background-color: rgba(59, 134, 59, 0.411);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    
+}
+h4 {
+    background-color: rgba(59, 134, 59, 0.801);
+    border-radius: 10px 10px 0px 0px  ;
+    padding: 10px;
+}
+p#dp {
+    padding: 10px;
+}
+li {
+    padding: 5px;
+}
+footer{
+    margin: auto;
+    text-align: center;
+    background-color:  rgba(5, 71, 5, 0.986);
+    color: white;
+    font-size: 0.8em;
+}
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
